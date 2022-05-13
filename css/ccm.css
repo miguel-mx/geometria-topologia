@@ -4,6 +4,18 @@ body {
     font-family: coolvetica, sans-serif;
 }
 
+.navbar-nav .nav-link {
+    font-size: 18px;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: #990bc0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #008eb9;
+}
+
 h1 {
     font-size: 48px;
     color: #808080;
@@ -40,6 +52,7 @@ section {
     margin-top: 40px;
     padding-top: 60px;
     padding-bottom: 60px;
+    box-shadow: 0 .6rem .8rem rgba(0,0,0,.15)!important;
 }
 
 .card-gyt {
@@ -171,4 +184,8 @@ section p {
 
 .logo {
     margin: 60px 120px;
+}
+
+.sombra {
+    box-shadow: 0 .6rem .8rem rgba(0,0,0,.15)!important;
 }
