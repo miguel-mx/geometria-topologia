@@ -189,3 +189,45 @@ section p {
 .sombra {
     box-shadow: 0 .6rem .8rem rgba(0,0,0,.15)!important;
 }
+
+@media only screen and (max-width: 576px) {
+
+    .img-hero {
+        width: 80%;
+        margin-top: 60px;
+    }
+
+    .hero-image h1 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    .hero-image h4 {
+        font-size: 32px;
+        letter-spacing: .8rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    section p {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .feature {
+        margin-top: 2.5rem;
+    }
+
+    .title {
+        text-align: center;
+    }
+
+    .lista-organizadores {
+        flex-direction: column!important;
+    }
+
+    .lista-patrocinadores {
+        flex-direction: column!important;
+    }
+
+}
