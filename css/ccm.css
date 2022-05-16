@@ -218,6 +218,14 @@ section p {
         margin-top: 2.5rem;
     }
 
+    .feature-title {
+        text-align: center;
+    }
+
+    .feature-desc {
+        text-align: center;
+    }
+
     .title {
         text-align: center;
     }
