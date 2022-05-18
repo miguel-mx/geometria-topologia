@@ -228,7 +228,7 @@ section p {
 
     .title {
         text-align: center;
-    }
+    }:
 
     .lista-organizadores {
         flex-direction: column!important;
