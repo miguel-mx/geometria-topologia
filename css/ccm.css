@@ -190,6 +190,45 @@ section p {
     box-shadow: 0 .6rem .8rem rgba(0,0,0,.15)!important;
 }
 
+.horario-dia {
+    color: #5F5F5F;
+}
+
+.evento {
+    border-style: solid none;
+    border-color: #C8C8C8;
+    border-width: 1px;
+    padding: 15px 5px;
+}
+
+.hora {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #6A6A6A;
+    margin-right: 35px;
+    margin-top: 10px;
+
+}
+
+.titulo {
+    font-weight: 600;
+    font-size: 28px;
+    color: #A10B5D;
+}
+
+.profesor {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    color: #6A6A6A;
+}
+
+.bg-gris {
+    background-color: #F9F9F9;
+}
+
 @media only screen and (max-width: 576px) {
 
     .img-hero {
