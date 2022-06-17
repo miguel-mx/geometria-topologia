@@ -215,12 +215,14 @@ section p {
     font-weight: 600;
     font-size: 28px;
     color: #A10B5D;
+    line-height: 30px;
 }
 
 .profesor {
     font-weight: 400;
     font-size: 24px;
     line-height: 29px;
+    margin-top: 5px;
     /* identical to box height */
     color: #6A6A6A;
 }
@@ -267,7 +269,25 @@ section p {
 
     .title {
         text-align: center;
-    }:
+    }
+
+    .hora {
+        min-width: 100px;
+        margin-right: 15px;
+        margin-top: 5px;
+    }
+
+    .profesor {
+        font-size: 20px;
+    }
+
+    .titulo {
+        font-size: 26px;
+    }
+
+    .pipe {
+        display: none;
+    }
 
     .lista-organizadores {
         flex-direction: column!important;
